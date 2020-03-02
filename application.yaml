@@ -6,7 +6,7 @@ spring:
 eureka:
     client:
         service-url:
-            default-zone: http://ip172-18-0-86-bpe8uoic687g00bd8rc0-8761.direct.labs.play-with-docker.com/eureka
+            defaultZone: http://ip172-18-0-86-bpe8uoic687g00bd8rc0-8761.direct.labs.play-with-docker.com/eureka
 
 habeebcycle:
     k8s:
