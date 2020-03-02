@@ -11,4 +11,4 @@ eureka:
 habeebcycle:
     k8s:
         service1:
-            link: http://localhost:9090
+            link: http://ip172-18-0-83-bpe8uoic687g00bd8rc0-9090.direct.labs.play-with-docker.com
