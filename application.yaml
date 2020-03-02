@@ -1,7 +1,7 @@
 spring:
     cloud:
         config:
-            uri: http://localhost:8888
+            uri: http://ip172-18-0-84-bpe8uoic687g00bd8rc0-8888.direct.labs.play-with-docker.com
 
 eureka:
     client:
