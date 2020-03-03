@@ -8,10 +8,9 @@ eureka:
         serviceUrl:
             defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
 
-habeebcycle:
-    k8s:
-        service1:
-            link: http://k8s-service1
+k8s:
+  service1:
+    link: http://k8s-service1
             
 developer:
   details:
