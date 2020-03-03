@@ -1,13 +1,3 @@
-spring:
-    cloud:
-        config:
-            uri: http://k8s-config-server
-
-eureka:
-    client:
-        serviceUrl:
-            defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
-
 k8s:
   service1:
     link: ${K8S_SERVICE1_LINK:http://k8s-service1}
