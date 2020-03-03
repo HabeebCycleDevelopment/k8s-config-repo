@@ -10,7 +10,7 @@ eureka:
 
 k8s:
   service1:
-    link: ${K8S_SERVICE1_LINK:http://k8s-service1}
+    link: ${K8S_SERVICE1_LINK:http://localhost:9090}
             
 developer:
   details:
