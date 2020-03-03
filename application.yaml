@@ -1,14 +1,14 @@
 spring:
     cloud:
         config:
-            uri: http://ip172-18-0-84-bpe8uoic687g00bd8rc0-8888.direct.labs.play-with-docker.com
+            uri: http://k8s-config-server
 
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://ip172-18-0-86-bpe8uoic687g00bd8rc0-8761.direct.labs.play-with-docker.com/eureka
+            defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
 
 habeebcycle:
     k8s:
         service1:
-            link: http://ip172-18-0-83-bpe8uoic687g00bd8rc0-9090.direct.labs.play-with-docker.com
+            link: http://k8s-service1
