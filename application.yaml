@@ -13,9 +13,8 @@ habeebcycle:
         service1:
             link: http://k8s-service1
             
-com:
-  habeebcycle:
-    developer:
-      name: Habeeb Okunade
-      email: habeebcycle@gmail.com
-      phone: +234-803-835-0075
+developer:
+  details:
+    name: Habeeb Okunade
+    email: habeebcycle@gmail.com
+    phone: +234-803-835-0075
