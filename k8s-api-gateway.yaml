@@ -1,10 +1,10 @@
 zuul:
-    routes:
-        k8s-service1:
-            path: /service1/**
-        k8s-service2:
-            path: /service2/**
-         k8s-eureka-naming-server:
-            path: /discovery/**
-         k8s-config-server:
-            path: /configurations/**            
+  routes:
+    k8s-service1:
+      path: /service1/**
+    k8s-service2:
+      path: /service2/**
+    k8s-eureka-naming-server:
+      path: /discovery/**
+    k8s-config-server:
+      path: /configurations/**            
